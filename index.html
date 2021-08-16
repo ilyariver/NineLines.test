@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="./css/main.css?v=1629073141414">
+	</head>
+	<body>
+		<script>
+			window.data = {
+				home: {"title":"гид&nbsp;по <br><span class=\"for-desktop\">бережному</span><span class=\"for-devices\">общению</span>","read":"Читать"},
+			};
+		</script>
+		<div class="site">
+			<main class="test">
+				<div class="container">
+					<div class="questionnaire">
+						<div class="questionnaire__section questionnaire__section--input">
+							<picture class="lozad js-lazy questionnaire__img" data-iesrc=".//images/avatar.png" data-alt="Аватар">
+								<source srcset=".//images/avatar.png"/>
+							</picture>
+							<form class="questionnaire__form js-form">
+								<div class="questionnaire__inputs js-all-inputs focus-visible"><span class="questionnaire__input-label js-input-label">ИМЯ</span>
+									<input class="questionnaire__input" type="text" value="Илья Дубиневич">
+								</div>
+								<div class="questionnaire__inputs js-all-inputs focus-visible"><span class="questionnaire__input-label js-input-label">ДАТА РОЖДЕНИЯ</span>
+									<input class="questionnaire__input" type="text">
+								</div>
+								<div class="questionnaire__inputs js-all-inputs focus-visible"><span class="questionnaire__input-label js-input-label">ГОРОД</span>
+									<input class="questionnaire__input" type="text">
+								</div>
+								<div class="questionnaire__inputs js-all-inputs focus-visible"><span class="questionnaire__input-label js-input-label">КОНТАКТНЫЕ ДАННЫЕ</span>
+									<input class="questionnaire__input" type="text" value="Telegram: @ilya_river">
+								</div>
+							</form>
+						</div>
+						<div class="questionnaire__section questionnaire__section--skills js-checkbox-content">
+							<h1 class="questionnaire__title">Навыки</h1>
+							<div class="questionnaire__wrap">
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="html5">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">HTML5</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="sass">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">SASS</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="vanillajs">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">VANILLAJS</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="git">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">GIT</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="css3">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">CSS3</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="less">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">LESS</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="angular">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">ANGULAR</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="foundation">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">FOUNDATION</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="бэм">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">БЭМ</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="gulp">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">GULP</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="jquery">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">JQUERY</span>
+								</div>
+								<div class="questionnaire__checkboxes-content js-checkbox" data-skill="bootstrap">
+									<div class="questionnaire__checkbox js-checkbox-mark" tabindex="1"></div><span class="questionnaire__checkbox-label js-checkbox-label">BOOTSTRAP</span>
+								</div>
+							</div>
+						</div>
+						<div class="questionnaire__section proficiency">
+							<div class="proficiency__indicator"><img class="proficiency__indicator-image" src=".//images/levels.svg" alt="Уровень">
+								<div class="proficiency__indicator-arrow js-indicator-arrow"></div>
+							</div>
+							<div class="proficiency__counter">
+								<div class="proficiency__counter-text">Мой уровень владения <br>
+									Java Script
+								</div>
+								<div class="proficiency__counter-numbers js-knowledge-counter">0</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<script>
+				var userAgent = navigator.userAgent.toLowerCase();
+				var InternetExplorer = false;
+				
+				if((/mozilla/.test(userAgent) && !/firefox/.test(userAgent) && !/chrome/.test(userAgent) && !/safari/.test(userAgent) && !/opera/.test(userAgent)) || /msie/.test(userAgent)) {
+					InternetExplorer = true;
+				}
+				
+				(function (i, s, o, g, r, a, m) {
+					i['GoogleAnalyticsObject'] = r;
+					i[r] = i[r] || function () {
+						(i[r].q = i[r].q || []).push(arguments)
+					}, i[r].l = 1 * new Date();
+					a = s.createElement(o),
+						m = s.getElementsByTagName(o)[0];
+					a.async = 1;
+					a.src = g;
+					m.parentNode.insertBefore(a, m)
+				})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+				
+				//- UA-... почти никогда не меняется при rbc проектах
+				ga('create', 'UA-90428516-32', 'auto', 'rbcspec');
+				ga('rbcspec.send', 'pageview');
+				//- NUMBERID нужно менять для каждого проекта
+				ga('create', 'NUMBERID', 'auto');
+				ga('send', 'pageview', {'page': location.pathname + location.search + location.hash});
+				
+				(function (d, w, c) {
+					(w[c] = w[c] || []).push(function () {
+						try {
+							//- NUMBERID нужно менять для каждого проекта, так же используется в JS
+							w.yaCounterNUMBERID = new Ya.Metrika2({
+								id: NUMBERID,
+								clickmap: true,
+								trackLinks: true,
+								accurateTrackBounce: true,
+								webvisor: true
+							});
+						} catch (e) {
+						}
+					});
+					if (!InternetExplorer) {
+						var n = d.getElementsByTagName("script")[0],
+							s = d.createElement("script"),
+							f = function () {
+								n.parentNode.insertBefore(s, n);
+							};
+						s.type = "text/javascript";
+						s.async = true;
+						s.src = "https://mc.yandex.ru/metrika/tag.js";
+				
+						if (w.opera == "[object Opera]") {
+							d.addEventListener("DOMContentLoaded", f, false);
+						} else {
+							f();
+						}
+					}
+				})(document, window, "yandex_metrika_callbacks2");
+				
+			</script>
+			<noscript>
+				<div><img src="https://mc.yandex.ru/watch/NUMBERID" style="position:absolute; left:-9999px;" alt=""></div>
+			</noscript><img class="visually-hidden" src="//www.tns-counter.ru/V13a****rbc_ru/ru/UTF-8/tmsec=rbc_total/" style="position: absolute; left: -9999px; display: none;" alt="">
+		</div>
+		<script>
+			if (!('IntersectionObserver' in window)) {
+				var script = document.createElement("script");
+				script.src = "https://raw.githubusercontent.com/w3c/IntersectionObserver/master/polyfill/intersection-observer.js";
+				document.getElementsByTagName('head')[0].appendChild(script);
+			}
+		</script>
+		<script src="./js/vendor.js?v=1629073141414"></script>
+		<script src="./js/main.js?v=1629073141414"></script>
+	</body>
+</html>
